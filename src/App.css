@@ -1,0 +1,139 @@
+
+/* css of header */
+@font-face{
+  font-family: "Lovely Home";
+  src:local('Lovely Home'), 
+  url("/home/hp/react/myportfolio/src/components/assets/LovelyHome-9aBZ.ttf") format('truetype');
+
+}
+
+*{
+  margin: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+  width: 100%;
+  height: 10vh;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  box-sizing: border-box;
+  margin-top: 4vh;
+}
+
+.nav ul{
+  display:flex;
+  gap: 20px;
+
+}
+
+.nav{
+  margin: 0px 15px;
+}
+
+.name h1{
+  margin: 0px 15px;
+  font-family: "Lovely Home";
+  font-size: 50px;
+  font-weight: bold;
+  color: #351458;
+}
+.name h1:hover{
+  color: black;
+}
+
+.nav a{
+  font-size: 25px;
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #351458;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+
+/* css of hero */
+
+.hero{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-left{
+  width: 50%;
+  display: flex;
+  text-align: left;
+  margin-left: 8vh;
+  line-height: 10vh;
+  
+}
+
+.hero-left .greet h1{
+  font-size: 40px;
+}
+
+.hero-left .greet p{
+  color: #868e96;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 4vh;
+}
+
+.hero-right{
+  width: 50%;
+}
+
+
+/* css of section 3 */
+
+#whatido h1{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.section3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.section3-left{
+  width: 50%;
+}
+
+.section3-left img{
+  width: 95%;
+}
+
+.section3-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* text-align: left; */
+  /* margin-left: 8vh; */
+  /* line-height: 10vh; */
+}
+
+.section3-right p{
+  color: #868e96;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 3vh;
+}
