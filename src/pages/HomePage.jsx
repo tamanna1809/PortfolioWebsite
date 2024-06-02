@@ -1,20 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import FooterComponent from './components/FooterComponent';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import Education from './pages/Education';
-import Projects from './pages/Projects';
-import ContactMe from './pages/ContactMe';
-import SkillsPage from './pages/SkillsPage';
 
-function App() {
+import '/home/hp/react/myportfolio/src/App.css';
+import HeaderComponent from '/home/hp/react/myportfolio/src/components/HeaderComponent.js';
+import HeroComponent from '/home/hp/react/myportfolio/src/components/HeroComponent.js';
+import Section3 from '/home/hp/react/myportfolio/src/components/Section3.js';
+import Tile from '/home/hp/react/myportfolio/src/components/Tile.jsx';
+import FooterComponent from '/home/hp/react/myportfolio/src/components/FooterComponent.js';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+function HomePage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <HeaderComponent/>
-        <HeroComponent/> */}
-        {/* <Section3/>
+    <div className="Home">
+      <header className="Home-header">
+        <HeaderComponent/>
+        <HeroComponent/>
+        <Section3/>
         <Tile 
         header={"Web Development"}
         text1={"Building Fully responsive website frontend using HTML, CSS, Bootstrap and Javascript."}
@@ -29,18 +28,9 @@ function App() {
         text1={" I have knowledge of Data Structures like Hash Tables, Trees, Tries, Graphs, and various algorithms for solving various problems efficiently."}
         text2={"As I know Data Structures and Algorithms are the heart of programming, so I love to solve programming questions in different competitive websites like Codeforces, Codechef, Hackerrank and many more."}
         img={"https://ajitverma15.github.io/Interactive-Portfolio/Image/Coding.svg"}
-        /> */}
-        <Router>
-            <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contactme" element={<ContactMe />} />
-            <Route path="/skillspage" element={<SkillsPage />} />
-            </Routes>
+        />
 
-        </Router>
-        {/* <FooterComponent/> */}
+        <FooterComponent/>
 
 
 
@@ -49,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

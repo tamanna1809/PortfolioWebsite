@@ -1,4 +1,6 @@
 import '/home/hp/react/myportfolio/src/App.css';
+import {Link} from 'react-router-dom';
+import React from 'react';
 
 function HeaderComponent() {
     return(
@@ -9,11 +11,11 @@ function HeaderComponent() {
 
             <div className="nav">
             <ul>
-                <li className="nav-item"><a href="#">Home</a></li>
-                <li className="nav-item"><a href="#">Education</a></li>
-                <li className="nav-item"><a href="#">Skills</a></li>
-                <li className="nav-item"><a href="#">Projects</a></li>
-                <li className="nav-item"><a href="#">Contact Me</a></li>
+                <li className="nav-item"><Link to="/">Home</Link></li>
+                <li className="nav-item"><Link to="/education">Education</Link></li>
+                <li className="nav-item"><Link to="/skillspage">Skills</Link></li>
+                <li className="nav-item"><Link to="/projects">Projects</Link></li>
+                <li className="nav-item"><Link to="/contactme">Contact Me</Link></li>
             </ul>
             </div>
         </nav>

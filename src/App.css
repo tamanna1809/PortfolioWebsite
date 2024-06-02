@@ -100,6 +100,24 @@ ul{
   width: 50%;
 }
 
+.hero span {
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }  
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
 
 /* css of section 3 */
 
@@ -126,9 +144,6 @@ ul{
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* text-align: left; */
-  /* margin-left: 8vh; */
-  /* line-height: 10vh; */
 }
 
 .section3-right p{
@@ -137,3 +152,87 @@ ul{
   font-size: 20px;
   line-height: 3vh;
 }
+
+
+/* css of tile */
+
+
+.img-parent{
+  width: 50%;
+}
+.img-parent img{
+  width: 95%;
+}
+
+.text-parent{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  align-self: bottom;
+
+}
+
+
+.tile{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 10vh;
+  margin-top: 100px;
+}
+
+.text-parent h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-parent .text{
+  color: #868e96;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+.image.circle{
+border-radius: 50%;
+height: 60%;
+width: 60%;
+margin-left: 20vh;
+border: 7px solid #351458;
+}
+
+
+/* css of progress bar */
+/* .skills {
+  display: flex;
+
+  padding: 20px;
+}
+
+.imgParent{
+
+  width: 50%;
+}
+
+.imgParent img {
+  width: 80%;
+}
+
+.progressBarParent {
+  width: 45%;
+}
+
+h2 {
+  text-align: center;
+} */
