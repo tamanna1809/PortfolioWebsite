@@ -1,0 +1,23 @@
+/* css of progress bar  */
+.skills {
+  display: flex;
+
+  padding: 20px;
+}
+
+.imgParent{
+
+  width: 50%;
+}
+
+.imgParent img {
+  width: 80%;
+}
+
+.progressBarParent {
+  width: 45%;
+}
+
+h2 {
+  text-align: center;
+}

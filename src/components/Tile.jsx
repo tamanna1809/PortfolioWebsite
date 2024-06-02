@@ -9,11 +9,9 @@ function Tile({ header, img, text1,text2,text3,position, circle}) {
             <div className="text-parent">
                 {header ? (<h1>{header}</h1>) : ""}
                 <div className="text">
-                    {text1}
-                    <br></br>
-                    {text2}
-                    <br></br>
-                    {text3}
+                    <p>{text1}</p>
+                    <p>{text2}</p>
+                    <p>{text3}</p>
                 </div>
 
             </div>

@@ -1,6 +1,6 @@
 import progress from "/home/hp/react/myportfolio/src/components/progress.js";
 import { useEffect, useState } from "react";
-// import '/home/hp/react/myportfolio/src/App.css'
+import '/home/hp/react/myportfolio/src/pages/skillspage.css'
 import FooterComponent from "/home/hp/react/myportfolio/src/components/FooterComponent.js";
 import HeaderComponent from "/home/hp/react/myportfolio/src/components/HeaderComponent.js";
 
