@@ -1,5 +1,5 @@
 
-import '/home/hp/react/myportfolio/src/App.css';
+import '../App.css';
 import HeaderComponent from '../components/HeaderComponent';
 import HeroComponent from '../components/HeroComponent';
 import Section3 from '../components/Section3';
