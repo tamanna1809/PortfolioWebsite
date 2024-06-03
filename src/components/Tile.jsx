@@ -1,4 +1,4 @@
-import '/home/hp/react/myportfolio/src/App.css';
+import '../App.css';
 function Tile({ header, img, text1,text2,text3,position, circle}) {
     return(
         <div className={`tile ${position}`}>
