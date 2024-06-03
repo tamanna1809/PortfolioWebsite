@@ -1,4 +1,4 @@
-import '/home/hp/react/myportfolio/src/App.css';
+import '../App.css';
 
 function FooterComponent() {
     return(

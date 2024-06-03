@@ -1,7 +1,5 @@
-import '/home/hp/react/myportfolio/src/App.css';
-import section2 from '/home/hp/react/myportfolio/src/components/assets/20200630_162659.gif';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
+import '../App.css';
+import section2 from '../components/assets/20200630_162659.gif';
 
 function HeroComponent() {
     return(

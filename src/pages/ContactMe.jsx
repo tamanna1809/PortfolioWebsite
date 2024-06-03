@@ -1,10 +1,10 @@
 
-import '/home/hp/react/myportfolio/src/App.css';
-import HeaderComponent from '/home/hp/react/myportfolio/src/components/HeaderComponent.js';
-import Tile from '/home/hp/react/myportfolio/src/components/Tile.jsx';
-import FooterComponent from '/home/hp/react/myportfolio/src/components/FooterComponent.js';
+import '../App.css';
+import HeaderComponent from '../components/HeaderComponent';
+import Tile from '../components/Tile';
+import FooterComponent from '../components/FooterComponent';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import self from '/home/hp/react/myportfolio/src/components/assets/tamanna_image.jpeg';
+import self from '../components/assets/tamanna_image.jpeg';
 
 function ContactMe() {
   return (

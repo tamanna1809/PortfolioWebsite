@@ -1,4 +1,4 @@
-import '/home/hp/react/myportfolio/src/App.css';
+import '../App.css';
 import {Link} from 'react-router-dom';
 import React from 'react';
 

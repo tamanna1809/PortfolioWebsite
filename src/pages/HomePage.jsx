@@ -1,10 +1,10 @@
 
 import '/home/hp/react/myportfolio/src/App.css';
-import HeaderComponent from '/home/hp/react/myportfolio/src/components/HeaderComponent.js';
-import HeroComponent from '/home/hp/react/myportfolio/src/components/HeroComponent.js';
-import Section3 from '/home/hp/react/myportfolio/src/components/Section3.js';
-import Tile from '/home/hp/react/myportfolio/src/components/Tile.jsx';
-import FooterComponent from '/home/hp/react/myportfolio/src/components/FooterComponent.js';
+import HeaderComponent from '../components/HeaderComponent';
+import HeroComponent from '../components/HeroComponent';
+import Section3 from '../components/Section3';
+import Tile from '../components/Tile';
+import FooterComponent from '../components/FooterComponent';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function HomePage() {

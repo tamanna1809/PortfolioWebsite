@@ -1,8 +1,8 @@
-import ProgressBar from "/home/hp/react/myportfolio/src/components/ProgressBar.js";
+import ProgressBar from "../components/ProgressBar";
 import { useEffect, useState } from "react";
-import HeaderComponent from '/home/hp/react/myportfolio/src/components/HeaderComponent.js';
-import '/home/hp/react/myportfolio/src/components/ProgressBar.css'
-import FooterComponent from '/home/hp/react/myportfolio/src/components/FooterComponent.js';
+import HeaderComponent from '../components/HeaderComponent';
+// import '/home/hp/react/myportfolio/src/components/ProgressBar.css'
+import FooterComponent from '../components/FooterComponent';
 
 function SkillsPage () {
 

@@ -1,5 +1,5 @@
-import '/home/hp/react/myportfolio/src/App.css';
-import section3 from '/home/hp/react/myportfolio/src/components/assets/Data_Analysis.svg';
+import '../App.css';
+import section3 from '../components/assets/Data_Analysis.svg';
 
 function Section3() {
     return(
