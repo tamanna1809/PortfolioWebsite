@@ -1,12 +1,12 @@
-/* css of progress bar  */
 .skills {
   display: flex;
-
+  /* flex-direction: column; */
+  /* align-items: center; */
   padding: 20px;
 }
 
 .imgParent{
-
+  /* margin-bottom: 20px; */
   width: 50%;
 }
 

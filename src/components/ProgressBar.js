@@ -1,6 +1,6 @@
-import './progress.css'
+import './ProgressBar.css'
 
-function progress ({percentage}) {
+function ProgressBar ({percentage}) {
     return (
         <div className="progress-bar-container">
             <div className="progress-bar" style={{width: `${percentage}%`}} >
@@ -9,4 +9,4 @@ function progress ({percentage}) {
     );
 }
 
-export default progress;
+export default ProgressBar;

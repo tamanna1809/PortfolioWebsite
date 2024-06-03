@@ -1,8 +1,8 @@
-import progress from "/home/hp/react/myportfolio/src/components/progress.js";
+import ProgressBar from "/home/hp/react/myportfolio/src/components/ProgressBar.js";
 import { useEffect, useState } from "react";
-import '/home/hp/react/myportfolio/src/pages/skillspage.css'
-import FooterComponent from "/home/hp/react/myportfolio/src/components/FooterComponent.js";
-import HeaderComponent from "/home/hp/react/myportfolio/src/components/HeaderComponent.js";
+import HeaderComponent from '/home/hp/react/myportfolio/src/components/HeaderComponent.js';
+import '/home/hp/react/myportfolio/src/components/ProgressBar.css'
+import FooterComponent from '/home/hp/react/myportfolio/src/components/FooterComponent.js';
 
 function SkillsPage () {
 
@@ -23,20 +23,20 @@ function SkillsPage () {
                 <img src="https://ajitverma15.github.io/Interactive-Portfolio/Image/Skills.svg" alt="skillsImg"/>
             </div>
             <div className="progressBarParent">
-                <h2>Proficiency</h2>
-                <progress
+                <h2 style={{ textAlign: 'center' }} >Proficiency</h2>
+                <ProgressBar 
                     percentage= {85}/>
-                <progress
+                <ProgressBar
                     percentage={80}/>
-                <progress
+                <ProgressBar
                     percentage={80}/>
-                <progress
+                <ProgressBar
                     percentage={90}/>
-                <progress
+                <ProgressBar
                     percentage={70}/>
-                <progress
+                <ProgressBar
                     percentage={65}/>
-                <progress
+                <ProgressBar
                     percentage={80}/>
             </div>
         </div>

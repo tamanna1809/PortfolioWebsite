@@ -190,6 +190,12 @@ ul{
   margin-top: 100px;
 }
 
+.right{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
 .text-parent h1{
   font-size: 40px;
   text-align: center;
