@@ -3,7 +3,7 @@
 @font-face{
   font-family: "Lovely Home";
   src:local('Lovely Home'), 
-  url("/home/hp/react/myportfolio/src/components/assets/LovelyHome-9aBZ.ttf") format('truetype');
+  url("../src/components/assets/LovelyHome-9aBZ.ttf") format('truetype');
 
 }
 
